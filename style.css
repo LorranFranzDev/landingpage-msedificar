@@ -269,11 +269,23 @@ footer{
 .developer{
     color: #fff;
     font-style: italic;
+    cursor: pointer;
+}
+
+.developer:hover{
+    color: #1A7993;
+    transition: 0.5s all;
+
 }
 
 .developer a{
     text-decoration: none;
     color: #1a7993;
+}
+
+.developer a:hover{
+    color: #fff;
+    transition: 0.5s all;
 }
 
 @media (max-width: 2000px){
