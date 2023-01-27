@@ -163,6 +163,7 @@ header{
     display: inline-block;
     background-color:#fff;
     text-decoration: none;
+    text-align: center;
     border-radius: 10px;
     color: #1A7993;
     padding: 20px 85px;
@@ -219,6 +220,8 @@ header{
     font-family: 'Oswald';
     border-radius: 10px;
 }
+
+
 
 input::placeholder{
     color: #000;
