@@ -1,9 +1,8 @@
-
 html {
     font-size: 62.5%;
 }
 
-body{
+body {
     width: 100%;
     height: 100%;
     font-family: 'Oswald';
@@ -16,46 +15,47 @@ body {
     font-size: 1.6rem;
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
 }
 
-.logo h2{
+.logo h2 {
     color: #fff;
     font-size: 6.0rem;
 }
 
-.logo span{
+.logo span {
     color: #1A7993;
 }
 
-.section-1{
+.section-1 {
     display: flex;
     justify-content: center;
     margin-top: 100px;
 }
-.section-1 img{
-    width:80vw;
+
+.section-1 img {
+    width: 80vw;
 }
 
-.area-title{
+.area-title {
     padding: 30px;
 }
 
-.area-title h3{
+.area-title h3 {
     color: #fff;
     font-weight: normal;
 }
 
-.area-title h1{
+.area-title h1 {
     color: #fff;
     font-size: 4.5rem;
     line-height: 50px;
     margin-top: -16px;
 }
 
-.area-title a{
+.area-title a {
     display: inline-block;
     background-color: #1A7993;
     text-decoration: none;
@@ -66,19 +66,19 @@ header{
     cursor: pointer;
 }
 
-.area-title a:hover{
+.area-title a:hover {
     background: #fff;
     color: #1A7993;
     transition: 0.5s all;
 }
 
-.image1{
+.image1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.image1 img{
+.image1 img {
     width: 460px;
     height: auto;
     border-radius: 10px;
@@ -86,31 +86,31 @@ header{
 
 /*AREA CARDS */
 
-.section-cards{
- display: flex;
- justify-content: center;
- flex-direction: column;
- align-items: center;
- margin-top: 100px;
- margin-bottom: 100px;
+.section-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.section-cards h2{
+.section-cards h2 {
     color: #fff;
     text-transform: uppercase;
     font-size: 2.2rem;
 }
 
-.cards{
+.cards {
     width: 90%;
     max-width: 1039px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
- 
+
 }
 
-.card{
+.card {
     background-color: #2C2F37;
     width: 90%;
     max-width: 1039px;
@@ -124,19 +124,19 @@ header{
     color: #fff;
 }
 
-.card:hover{
+.card:hover {
     background-color: #1A7993;
     transition: 0.3s all;
 }
 
-.card img{
+.card img {
     width: 150px;
     margin-top: 15px;
 }
 
 /* SECTION-3*/
 
-.section-3{
+.section-3 {
     background-color: #1A7993;
     width: 100%;
     height: 342px;
@@ -146,12 +146,12 @@ header{
     margin-bottom: 100px;
 }
 
-.area-title-2 h1{
+.area-title-2 h1 {
     color: #fff;
     font-size: 3.5rem;
 }
 
-.area-title-2 h3{
+.area-title-2 h3 {
     color: #fff;
     font-size: 2.0rem;
     font-weight: normal;
@@ -159,9 +159,9 @@ header{
 
 }
 
-.area-title-2 a{
+.area-title-2 a {
     display: inline-block;
-    background-color:#fff;
+    background-color: #fff;
     text-decoration: none;
     text-align: center;
     border-radius: 10px;
@@ -173,25 +173,25 @@ header{
     margin-bottom: 20px;
 }
 
-.area-title-2 a:hover{
+.area-title-2 a:hover {
     background: #32bce2;
     color: #fff;
     transition: 0.3s all;
 }
 
-.image2{
+.image2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.image2 img{
+.image2 img {
     width: 280px;
     height: auto;
     margin-top: 20px;
 }
 
-.area-form{
+.area-form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,19 +199,19 @@ header{
     flex-direction: column;
 }
 
-.area-form h2{
+.area-form h2 {
     color: #fff;
     text-align: center;
 }
 
-.formulario form{
+.formulario form {
     display: flex;
     flex-direction: column;
     width: 400px;
     height: 300px;
 }
 
-.formulario input{
+.formulario input {
     margin-top: 20px;
     padding-left: 10px;
     height: 40px;
@@ -223,13 +223,13 @@ header{
 
 
 
-input::placeholder{
+input::placeholder {
     color: #000;
     text-transform: uppercase;
     border-radius: 10px;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     background-color: #1A7993;
     text-transform: uppercase;
     border-radius: 10px;
@@ -239,80 +239,83 @@ input[type="submit"]{
     cursor: pointer;
 }
 
-.button-submit:hover{
+.button-submit:hover {
     background: #fff;
     color: #1A7993;
     transition: 0.5s all;
-}                      
+}
 
-footer{
+footer {
     width: auto;
     height: 50px;
     margin-top: 100px;
     margin-bottom: 30px;
 }
 
-.social h3{
+.social h3 {
     text-align: center;
     color: #fff;
     font-weight: normal;
 }
 
-.social img{
+.social img {
     width: 30px;
     margin: 10px;
 }
 
-.social img:hover{
+.social img:hover {
     background: #1a79939f;
     border-radius: 10px;
     transition: 0.5s all;
-}  
+}
 
-.developer{
+.developer {
     color: #fff;
     font-style: italic;
     cursor: pointer;
 }
 
-.developer:hover{
+.developer:hover {
     color: #1A7993;
     transition: 0.5s all;
 
 }
 
-.developer a{
+.developer a {
     text-decoration: none;
     color: #1a7993;
 }
 
-.developer a:hover{
+.developer a:hover {
     color: #fff;
     transition: 0.5s all;
 }
 
-@media (max-width: 2000px){
+@media (max-width: 2000px) {
     html {
-        font-size: 75%;
+        font-size: 100%;
     }
-    .section-1{
+
+    .section-1 {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
         text-align: left;
     }
-    .section-1 img{
+
+    .section-1 img {
         width: 30vw;
     }
-    .section-3{
-    background-color: #1A7993;
-    width: 100%;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px;
+
+    .section-3 {
+        background-color: #1A7993;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
     }
 
     .area-title-2 {
@@ -323,19 +326,20 @@ footer{
         margin: 10px;
     }
 
-    .orcamento{
+
+    .orcamento {
         width: 300px;
         height: 40px;
     }
 
-    .formulario form{
+    .formulario form {
         display: flex;
         flex-direction: column;
         width: 500px;
         height: 200px;
     }
 
-    footer{
+    footer {
         align-items: center;
     }
 
@@ -350,32 +354,40 @@ footer{
 
 
 
-@media (max-width: 950px){
-    .section-1{
+@media (max-width: 950px) {
+
+    html {
+        font-size: 75%;
+    }
+
+    .section-1 {
         flex-direction: column;
         text-align: center;
     }
 
-    .section-1 img{
+    .section-1 img {
         width: 50vw;
     }
 
-    .section-1 .image1{
+    .section-1 .image1 {
         order: -1;
     }
-    .section-3{
+
+    .section-3 {
         height: auto;
         flex-direction: column;
         text-align: center;
-       
+
     }
-    .section-3 .image2{
+
+    .section-3 .image2 {
         order: -1;
     }
-    
-    footer{
+
+    footer {
         align-items: center;
     }
+
     .social a {
         margin: 10px;
     }
@@ -386,54 +398,121 @@ footer{
 
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px) {
 
-    .section-1{
+    html {
+        font-size: 50%;
+    }
+
+    .section-1 {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         text-align: center;
     }
-    .section-1 img{
+
+    .section-1 img {
         width: 80vw;
     }
-    .section-1 .image1{
+
+    .section-1 .image1 {
         order: -1;
     }
-    .section-3{
+
+    .section-3 {
         width: 100vw;
         height: auto;
         flex-direction: column;
         text-align: center;
-       
+
     }
-    .section-3 .image2{
+
+    .section-3 .image2 {
         order: -1;
         width: 80vw;
     }
 
-    .orcamento{
+    .orcamento {
         width: 100px;
         height: 40px;
     }
 
-    .formulario form{
+    .formulario form {
         display: flex;
         flex-direction: column;
         width: 300px;
         height: 300px;
     }
 
-    footer{
+    footer {
         align-items: center;
 
     }
+
     .developer {
         align-items: center;
     }
 
-    
+    @media (max-width: 320px) {
+        html {
+            font-size: 45%;
+        }
+
+        .section-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .section-1 img {
+            width: 80vw;
+        }
+
+        .section-1 .image1 {
+            order: -1;
+        }
+
+        .section-3 {
+            width: 100vw;
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+
+        }
+
+        .section-3 .image2 {
+            order: -1;
+            width: 80vw;
+        }
+
+        .orcamento {
+            width: 100px;
+            height: 20px;
+        }
+
+        .formulario form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            height: 300px;
+        }
+
+        footer {
+            align-items: center;
+
+        }
+
+        .social a {
+            margin: -2px;
+        }
+
+        .developer {
+            align-items: center;
+        }
+
+    }
+
 }
-
-
